@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import "normalize";
 
 body {
   background: #ECC561;
@@ -40,6 +39,16 @@ h1 {
       transition: all 0.15s linear;
     }
   }
+}
+
+header h1 {
+  padding-top: 50px;
+  font-weight: 800;
+}
+
+footer p {
+  font-weight: 100;
+  color: rgba(0,0,0,0.5);
 }
 
 .welcome {
